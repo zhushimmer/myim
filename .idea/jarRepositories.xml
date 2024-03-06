@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="thirdparty" />
+      <option name="name" value="local private nexus thirdparty" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="edas-oss-central" />
+      <option name="name" value="taobao mirror central" />
+      <option name="url" value="http://edas-public.oss-cn-hangzhou.aliyuncs.com/repository" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/repositories/central/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="releases" />
+      <option name="name" value="maven-releases" />
+      <option name="url" value="http://192.168.164.41:8081/repository/maven-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="aliyun-maven" />
+      <option name="name" value="aliyun maven" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-snapshots" />
+      <option name="name" value="local private nexus snapshots" />
+      <option name="url" value="http://192.168.164.41:8081/nexus/content/repositories/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="snapshots" />
+      <option name="name" value="maven-snapshots" />
+      <option name="url" value="http://192.168.164.41:8081/repository/maven-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-releases" />
+      <option name="name" value="local private nexus releases" />
+      <option name="url" value="http://192.168.164.41:8081/nexus/content/repositories/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="aliyun-maven" />
+      <option name="name" value="aliyun maven" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="local private nexus" />
+      <option name="url" value="http://192.168.164.41:8081/nexus/content/groups/public" />
+    </remote-repository>
+  </component>
+</project>
