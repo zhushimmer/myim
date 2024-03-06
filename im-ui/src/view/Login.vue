@@ -2,58 +2,11 @@
 	<div class="login-view">
 		<div class="login-content">
 			<div class="login-intro">
-				<div>
-					<h3>盒子IM 2.0版本已上线：</h3>
-					<ul>
-						<li>加入uniapp移动版本，支持移动端和web端同时在线，多端消息同步</li>
-						<li>目前移动端仅兼容h5和微信小程序，后续会继续兼容更多终端类型</li>
-						<li>聊天窗口支持粘贴截图、@群成员、已读未读显示</li>
-						<li>页面风格升级:表情包更新、自动生成文字头像等</li>
-					</ul>
-				</div>
-				<div>
-					<h3>最近更新(2024-01-19)：</h3>
-					<ul>
-						<li>最近给小伙伴们整理了一份
-							<a href="https://www.yuque.com/u1475064/mufu2a" target="_blank">盒子IM详细介绍文档</a>,目前限时免费开放中
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h3>最近更新(2024-01-28)：</h3>
-					<ul>
-						<li>支持群聊已读显示(回执消息)</li>
-						<li>群聊会话窗口增加邀请、退群、移除、解散提示</li>
-					</ul>
-				</div>
-				<div>
-					<h3>最近更新(2024-02-24)：</h3>
-					<ul>
-						<li>uniapp端兼容ios和andriod,
-							<a href="https://www.boxim.online/download/boxim.apk" target="_blank">点击下载安卓客户端</a>
-						</li>
-						<li>uniapp端的启动和打包方式有所变化，具体请参考语雀文档</li>
-					</ul>
-				</div>
-				<div>
-					<h3>项目依旧完全开源，可内网部署。如果项目对您有帮助,请帮忙点个star:</h3>
-				</div>
-				<div class="login-icons">
-					<a class="login-icon">
-						<img src="https://img.shields.io/badge/license-MIT-red" />
-					</a>
-					<a class="login-icon" href="https://gitee.com/bluexsx/box-im" target="_blank">
-						<img src="https://gitee.com/bluexsx/box-im/badge/star.svg" />
-					</a>
-					<a class="login-icon" href="https://github.com/bluexsx/box-im" target="_blank">
-						<img src="https://img.shields.io/github/stars/bluexsx/box-im.svg?style=flat&logo=GitHub" />
-					</a>
-
-				</div>
-			</div>
+        <img src="../assets/image/chatlogin.png" alt="">
+      </div>
 			<el-form class="login-form" :model="loginForm" status-icon :rules="rules" ref="loginForm" label-width="60px"
 				@keyup.enter.native="submitForm('loginForm')">
-				<div class="login-brand">登陆盒子IM</div>
+				<div class="login-brand">登陆MYIM</div>
 				<el-form-item label="终端" prop="userName" v-show="false">
 					<el-input type="terminal" v-model="loginForm.terminal" autocomplete="off"></el-input>
 				</el-form-item>

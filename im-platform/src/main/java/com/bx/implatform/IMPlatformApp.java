@@ -26,6 +26,7 @@ public class IMPlatformApp {
 
     public static void main(String[] args) {
         SpringApplication.run(IMPlatformApp.class, args);
+        System.out.println("【【【【【【【IMPlatformApp客户端集成微服务启动成功！！！！！！】】】】】】】");
     }
 
 }
